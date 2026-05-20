@@ -10,25 +10,32 @@
     "researchGate": "https://www.researchgate.net/profile/Subasish-Das",
     "github": "https://github.com/subasish",
     "twitter": "https://x.com/subasish_das",
-    "websites": ["https://subasish.github.io/"],
+    "websites": [
+      "https://subasish.github.io/"
+    ],
     "description": "Dr. Subasish Das is an Assistant Professor of Civil Engineering Program in the Ingram School of Engineering at Texas State University. He is also involved with Texas A&M Transportation  Institute (TTI) as a part time Associate Research Scientist. Previously, he worked as a full-time Associate Research Scientist at TTI during 2015 to 2022. He has more than 13 years of experience related to roadway safety, traffic operation, and connected and automated vehicle (CAV) technologies. He is a Systems Engineer by training with hands on experience on Six Sigma and Lean Engineering. His major areas of expertise include database management, statistical analysis and machine learning with emphasis in safety and transportation operations, spatial analysis with modern web GIS tools, interactive data visualization, and deep learning tools for CAV technologies. Dr. Das is a prolific author. He has published more than 160 technical reports, and journal articles. He is the author of the book “Artificial Intelligence in Highway Safety,” which was published by CRC Press in 2022. The AASHTO Research Advisory Committee (RAC) awarded one of his research reports as 2014 AASHTO Sweet Sixteen High Value Research Project. Dr. Das is an active member of ITE, and ASCE. He is an Eno Fellow. He served as vice-president of membership of Young Professionals in Transportation Houston chapter. He is currently a member of three TRB Committees: Information and Knowledge Management (AJE45), Artificial Intelligence and Advanced Computing Applications (AED50), and Impairment in Transportation (ACS50).",
-    "awards": [""]
+    "awards": [
+      ""
+    ]
   },
   {
-      "name": "Amir Rafe, Ph.D.",
-      "label": "Postdoctoral Researcher (Fall 2025 - Current)",
-      "group": "Postdoctoral Researcher",
-      "linkedin": "https://www.linkedin.com/in/amir-rafe-08770854/",
-      "email": "",
-      "image": "amir.png",
-      "googleScholar": "https://scholar.google.com/citations?hl=en&user=IUVLrp9PgFEC&view_op=list_works",
-      "researchGate": "https://www.researchgate.net/profile/Amir-Rafe",
-      "orcid": "",
-      "github": "https://github.com/pozapas",
-      "twitter": "https://twitter.com/rafeamir",
-      "websites": ["https://pozapas.github.io/", "https://www.youtube.com/@AmirRafe"],
-      "description": "Amir Rafe is a Postdoctoral Researcher in the Artificial Intelligence in Transportation (AIT) Lab at Texas State University. His research spans Causal AI, Computational Epistemology in AI, Complexity, and Safety, with a focus on understanding and improving how intelligent systems reason about and interact with complex, safety-critical environments. His doctoral work, EvacuAIDi: An AI-Driven, Causal-Informed Framework for Probabilistic and Disability-Inclusive Evacuation Guidance, integrates artificial intelligence, human behavior modeling, and causal reasoning to create more reliable and inclusive evacuation solutions. Amir has over 15 years of professional experience as a transportation engineering consultant, working on pedestrian safety, crowd evacuation, transportation master plans, freight logistics, and airport design across multiple countries. He began programming at the age of 12 with Fortran and has since gained extensive experience across many programming languages, now primarily developing in Python. His expertise includes AI-driven modeling, complex system simulation, probabilistic reasoning, and decision-support tool development. Beyond creating open-source tools, Amir is deeply driven by investigating the why behind phenomena and exploring how intricate systems emerge and evolve. Amir is also passionate about scientific outreach and education. He actively engages in science communication through social media, hosting a podcast on causality (Decoding Causality), which has been named one of the Top 15 causality podcasts on the web by Million Podcasts, and managing a LinkedIn page on Evacuation Science. Dedicated to teaching, he earned his College Teaching Certificate from Utah State University in August 2025 and continues to mentor students and foster interdisciplinary collaboration. Committed to bridging theory and practice, Amir seeks to advance methods that combine human insight, causal reasoning, and computational intelligence to build safer, more robust, and epistemically sound systems. As he describes it, “I like to create solutions that not only work but truly explain why they work, because understanding the cause is the foundation of lasting safety and progress.”",
-      "awards": []
+    "name": "Amir Rafe, Ph.D.",
+    "label": "Postdoctoral Researcher (Fall 2025 - Current)",
+    "group": "Postdoctoral Researcher",
+    "linkedin": "https://www.linkedin.com/in/amir-rafe-08770854/",
+    "email": "",
+    "image": "amir.png",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=IUVLrp9PgFEC&view_op=list_works",
+    "researchGate": "https://www.researchgate.net/profile/Amir-Rafe",
+    "orcid": "",
+    "github": "https://github.com/pozapas",
+    "twitter": "https://twitter.com/rafeamir",
+    "websites": [
+      "https://pozapas.github.io/",
+      "https://www.youtube.com/@AmirRafe"
+    ],
+    "description": "Amir Rafe is a Postdoctoral Researcher in the Artificial Intelligence in Transportation (AIT) Lab at Texas State University. His research spans Causal AI, Computational Epistemology in AI, Complexity, and Safety, with a focus on understanding and improving how intelligent systems reason about and interact with complex, safety-critical environments. His doctoral work, EvacuAIDi: An AI-Driven, Causal-Informed Framework for Probabilistic and Disability-Inclusive Evacuation Guidance, integrates artificial intelligence, human behavior modeling, and causal reasoning to create more reliable and inclusive evacuation solutions. Amir has over 15 years of professional experience as a transportation engineering consultant, working on pedestrian safety, crowd evacuation, transportation master plans, freight logistics, and airport design across multiple countries. He began programming at the age of 12 with Fortran and has since gained extensive experience across many programming languages, now primarily developing in Python. His expertise includes AI-driven modeling, complex system simulation, probabilistic reasoning, and decision-support tool development. Beyond creating open-source tools, Amir is deeply driven by investigating the why behind phenomena and exploring how intricate systems emerge and evolve. Amir is also passionate about scientific outreach and education. He actively engages in science communication through social media, hosting a podcast on causality (Decoding Causality), which has been named one of the Top 15 causality podcasts on the web by Million Podcasts, and managing a LinkedIn page on Evacuation Science. Dedicated to teaching, he earned his College Teaching Certificate from Utah State University in August 2025 and continues to mentor students and foster interdisciplinary collaboration. Committed to bridging theory and practice, Amir seeks to advance methods that combine human insight, causal reasoning, and computational intelligence to build safer, more robust, and epistemically sound systems. As he describes it, “I like to create solutions that not only work but truly explain why they work, because understanding the cause is the foundation of lasting safety and progress.”",
+    "awards": []
   },
   {
     "name": "Shriyank Somvanshi",
@@ -76,7 +83,9 @@
     "googleScholar": "https://scholar.google.com/citations?user=DJcqWr0AAAAJ&hl=en&oi=sra",
     "github": "https://github.com/davidamills",
     "twitter": "",
-    "websites": ["https://davidmills.io"],
+    "websites": [
+      "https://davidmills.io"
+    ],
     "awards": [
       "Dwight D. Eisenhower Transportation Fellowship Program, $7,000 (2022)",
       "NSF I-Corps Interior Northeast Winter 2024 Cohort, $50,000 (2024)",
@@ -101,9 +110,11 @@
       "https://www.webofscience.com/wos/author/record/MBG-5163-2025"
     ],
     "description": "Md Monzurul Islam is a Master's student in Civil Engineering (Transportation) at Texas State University, where he works as a Graduate Research Assistant under the supervision of Dr. Subasish Das. He brings a diverse academic and professional background, holding a Master's degree in Architecture from the University of Tokyo and a Bachelor's degree in Civil Engineering from Bangladesh University of Engineering and Technology. Monzurul's research focuses on transportation safety, crash risk assessment, and driver behavior analysis, utilizing machine learning, statistical models, and GIS-based spatial analysis. He is also proficient in building R-based tools for quick visualization and decision-making. In addition to his research, Monzurul has extensive experience in software development, project management, and structural engineering. As Vice President of Outreach for the Institute of Transportation Engineers (TXST Chapter), Monzurul develops and implements strategies for community engagement, builds relationships with external organizations, alumni, and potential sponsors, organizes promotional events, and manages outreach and recruitment efforts to attract new members. Monzurul also enjoys tinkering with a wide variety of tools and technologies, always curious to explore and experiment with everything he encounters—in his words, 'I like to play with everything.'",
-    "awards": ["BobCatalyst Innovation Accelerator Program (BIAP) Award, $5,000 (2025)",
-    "CASITE Scholarship, $1,500 (2025)",
-    "American Society of Highway Engineers (ASHE) award, $2,000 (2025)"]
+    "awards": [
+      "BobCatalyst Innovation Accelerator Program (BIAP) Award, $5,000 (2025)",
+      "CASITE Scholarship, $1,500 (2025)",
+      "American Society of Highway Engineers (ASHE) award, $2,000 (2025)"
+    ]
   },
   {
     "name": "Sazzad Bin Bashar Polock",
@@ -117,7 +128,9 @@
     "twitter": "",
     "websites": [],
     "description": "Sazzad Bin Bashar Polock is a Master's student in Civil Engineering (Transportation) at Texas State University, working under the guidance of Dr. Subasish Das. Currently working as a graduate instructional assistant at the Ingram School of Engineering, he joined the Artificial Intelligence in Transportation (AIT) lab in Fall 2024. His research interests include traffic safety, crash data analysis, driver behavior, and the integration of autonomous vehicles within existing infrastructure. He earned his bachelor's degree in civil engineering from Ahsanullah University of Science and Technology in 2023.",
-    "awards": [""]
+    "awards": [
+      ""
+    ]
   },
   {
     "name": "Tausif Islam Chowdhury",
@@ -131,7 +144,9 @@
     "twitter": "",
     "websites": [],
     "description": "Tausif Islam Chowdhury is a Master's student in Civil Engineering (Transportation) at Texas State University, working under the guidance of Dr. Subasish Das. Currently serving as a Graduate Instructional Assistant at the Ingram School of Engineering. He joined the Artificial Intelligence in Transportation (AIT) Lab in Spring 2025. His research interests include transportation safety, infrastructure resilience, artificial intelligence applications in transportation, and sustainable urban mobility. He earned his bachelor's degree in Building Engineering and Construction Management from Khulna University of Engineering & Technology (KUET) in 2023. Tausif enjoys exploring emerging technologies, data science techniques, and creatively solving complex problems, while also having a passion for video games, cricket, and football.",
-    "awards": [""]
+    "awards": [
+      ""
+    ]
   },
   {
     "name": "Arka Chakraborty",
@@ -161,9 +176,13 @@
     "orcid": "https://orcid.org/0009-0002-8644-8326",
     "github": "https://github.com/rafat166",
     "twitter": "",
-    "websites": ["https://sites.google.com/view/sharifahmedrafat/home"],
+    "websites": [
+      "https://sites.google.com/view/sharifahmedrafat/home"
+    ],
     "description": "Sharif Ahmed Rafat is a Master’s student in Civil Engineering (Transportation) at Texas State University, working as a Graduate Research Assistant with the supervision of Dr. Subasish Das from Fall 2025. A BUET graduate, he has over six years of experience in the transportation field, specializing in intelligent transportation systems (ITS), transportation planning and safety, traffic microsimulation, and demand forecasting, and has contributed to major projects in Bangladesh using tools such as PTV Vissim and AutoCAD Civil 3D. He also has two years of teaching experience in civil engineering and programming. His current research focuses on transportation safety, travel behavior, and integrating artificial intelligence into ITS.",
-    "awards": ["BobCatalyst Innovation Accelerator Program (BIAP) Award, $5,000 (2025)"]
+    "awards": [
+      "BobCatalyst Innovation Accelerator Program (BIAP) Award, $5,000 (2025)"
+    ]
   },
   {
     "name": "Anika Baitullah",
@@ -171,7 +190,7 @@
     "group": "Graduate Student",
     "linkedin": "https://www.linkedin.com/in/baitullah-anika-610b8237b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "email": "",
-    "image": "anika.png",
+    "image": "anika-new.png",
     "googleScholar": "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4yf_QrBk1ny1vpoRf9lwKJgVEacY38SQUWTYRbWLdRccoXKGFsJx7PnbgzIv_2kyIIecc5X_u5c3CA4UdoAbp7PNA5ca0YSd8BZRUI&user=tZFdqf0AAAAJ",
     "researchGate": "",
     "orcid": "",
@@ -179,7 +198,9 @@
     "twitter": "",
     "websites": [],
     "description": "Anika Baitullah is a Master's student in Civil Engineering (Transportation) at Texas State University, working as a Graduate Research Assistant under the guidance of Dr. Subasish Das.  She joined the Artificial Intelligence in Transportation (AIT) lab in Fall 2025. Her research interests include safety assessment in shared-use paths, transportation safety, crash data analysis, driver behavior, and the application of GIS-based techniques for sustainable urban mobility. She earned her bachelor's degree in civil engineering from Rajshahi University of Engineering and Technology in 2021. Before pursuing graduate studies, she worked as a Transmission Line Engineer, utilizing GIS-based software to enhance the sustainability of electrical transmission line infrastructure. Outside of academics and research, Anika enjoys reading novels and is committed to contributing to more sustainable infrastructure development.",
-    "awards": ["Graduate Merit Fellowship, $1,285 (2025, 2026)"]
+    "awards": [
+      "Graduate Merit Fellowship, $1,285 (2025, 2026)"
+    ]
   },
   {
     "name": "Salma Akter Laboni",
@@ -187,7 +208,7 @@
     "group": "Graduate Student",
     "linkedin": "",
     "email": "",
-    "image": "laboni.png",
+    "image": "laboni-new.png",
     "googleScholar": "",
     "researchGate": "",
     "orcid": "",
@@ -195,7 +216,9 @@
     "twitter": "",
     "websites": [],
     "description": "Salma Akter Laboni is a master’s Student in McCoy College of Business (MBA) at Texas State University, working as a Graduate Research Assistant under the guidance of Dr. Subasish Das. She joined the Artificial Intelligence in Transportation (AIT) lab in Fall 2025. Laboni has authored and co-authored several peer-reviewed journal articles, including studies on travel agency operations, export potential of Bangladesh’s flower and leather industries, the role of information technology and blockchain in logistics supply chains, and the socio-economic implications of gig work. She earned her bachelor's and master's degrees in the International Business Department from the University of Dhaka in 2019 and 2020, respectively. Before graduate school, she joined City University as a faculty member in the Department of Business Administration and Economics. Outside of academics and research, Laboni enjoys travelling and is an inquisitive person who is always willing to learn more.",
-    "awards": ["Graduate Merit Fellowship, $1,285 (2025, 2026)"]
+    "awards": [
+      "Graduate Merit Fellowship, $1,285 (2025, 2026)"
+    ]
   },
   {
     "name": "Gaurab Chhetri",
@@ -209,7 +232,10 @@
     "orcid": "https://orcid.org/0009-0000-0124-4814",
     "github": "https://github.com/gauravfs-14",
     "twitter": "https://x.com/gaurav_fs_14",
-    "websites": ["https://gaurabchhetri.com.np", "https://computenepal.com"],
+    "websites": [
+      "https://gaurabchhetri.com.np",
+      "https://computenepal.com"
+    ],
     "description": "Gaurab is currently an undergraduate student in the Computer Science Program at Texas State University. He joined the AIT Lab in Fall 2024 and works as an undergraduate research assistant for Dr. Das. Originally from Nepal, Gaurab is passionate about web development and IT operations, with a strong focus on creating responsive and user-friendly web applications. His technical expertise spans HTML, CSS, JavaScript, React, Tailwind, Node.js, Express, MongoDB, and MySQL, along with version control using Git and GitHub. Before joining Texas State, Gaurab worked as an IT Officer, where he managed domain registrations, email systems, and computer lab environments. He also has experience in digital marketing, social media management, and graphic design, providing a holistic approach to enhancing online presence for businesses. His hands-on experience extends to WordPress, PHP, SQL, and a variety of tools that streamline IT operations and web development.",
     "awards": [
       "Best In Coding at Hackacat Nano by ACM AI @ TXST (2024)",
@@ -257,7 +283,7 @@
     "group": "Undergraduate Student",
     "linkedin": "https://www.linkedin.com/in/bidisha-shrestha-354a36206/",
     "email": "",
-    "image": "bidisha.png",
+    "image": "bidisha-new.png",
     "googleScholar": "",
     "github": "",
     "twitter": "",
@@ -266,22 +292,20 @@
     "awards": []
   },
   {
-    "name": "Mahmuda Sultana Mimi",
-    "label": "M.Sc., Civil Engineering (2023 - 2025) (Temp Employee Since September, 2025)",
-    "group": "Graduate Student",
-    "linkedin": "https://www.linkedin.com/in/mahmuda-mimi",
+    "name": "Radha Kumari Yadav",
+    "label": "B.Sc. Student, Computer Science (Fall 2024 - Current)",
+    "group": "Undergraduate Student",
+    "linkedin": "https://www.linkedin.com/in/radha-ydv/",
     "email": "",
-    "image": "mahmuda_sultana_mimi.jpg",
-    "description": "Mahmuda is currently pursuing Master's in Civil Engineering at Texas State University under the supervision of Dr. Subasish Das. She joined AIT lab in Fall 2023 as a Graduate Research Assistant. Previously, she earned her Bachelor's degree in Urban and Regional Planning from Bangladesh University of Engineering and Technology (BUET). Her research focuses on transportation safety, encompassing vulnerable road users, driver behavior, and micromobility; as well as travel behavior and demand modeling. She is deeply engaged in developing Machine Learning, and Deep Learning based models; Statistical and Econometric models; GIS based spatial data analysis; and data mining in the field of transportation. In addition to her academic pursuits, she serves as the secretary of the ITE TXST chapter, where she supports initiatives to enhance transportation systems and promote safety.",
-    "googleScholar": "https://scholar.google.com/citations?user=CUmpUkAAAAAJ&hl=en",
-    "github": "https://github.com/Mahmuda-mimi",
+    "image": "radha.png",
+    "googleScholar": "",
+    "researchGate": "",
+    "orcid": "",
+    "github": "https://github.com/Radha7-alt",
     "twitter": "",
     "websites": [],
-    "awards": [
-      "Graduate College Scholarship, $1,000 (2023, 2024)",
-      "ASHE Central Texas Scholarship Award, $1,000 (Fall 2024)",
-      "WTS Helene Overley Memorial Scholarship, $5,000 (2025)"
-    ]
+    "description": "Radha Kumari Yadav is an undergraduate student in the Computer Science program at Texas State University. She joined the Artificial Intelligence in Transportation (AIT) Lab in Spring 2025 and works as an undergraduate research assistant under Dr. Subasish Das. Originally from Nepal, she is passionate about machine learning, data analytics, and artificial intelligence, with interests in open-source development and continuous learning.",
+    "awards": []
   },
   {
     "name": "Michael J Starewich",
@@ -295,21 +319,5 @@
     "github": "",
     "twitter": "",
     "websites": []
-  },
-  {
-    "name": "Venkata Surya Bellamkonda",
-    "label": "M.Sc., Data Analytics And Information Systems (Temp Employee since August, 2025)",
-    "group": "Graduate Student",
-    "linkedin": "",
-    "email": "",
-    "image": "Bellamkonda.png",
-    "googleScholar": "",
-    "researchGate": "",
-    "orcid": "",
-    "github": "https://github.com/bellamkondasurya1999",
-    "twitter": "",
-    "websites": [],
-    "description": "Venkata Surya Bellamkonda is a Machine Learning Engineer and recent graduate of Texas State University with a Master’s in Data Analytics & Information Systems. His experience spans adversarial machine learning, NLP, and scalable AI solutions, with applied projects in job search automation, AI-driven education, and MLOps workflows.",
-    "awards": []
   }
 ]
