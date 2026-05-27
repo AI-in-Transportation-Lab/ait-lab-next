@@ -1,4 +1,42 @@
 [
+      {
+        "number": "0-7301",
+        "title": "High Performance Waterborne Traffic Paint: Financial, Safety, and Durability Potential as Substitutes to Thermoplastic Pavement",
+        "description": "TxDOT Project (TTI as Prime), PS 27-055 (0-7301). This study evaluates the financial, safety, and durability performance potential of high performance waterborne traffic paint as a substitute to thermoplastic pavement markings. TXST Budget: $110,000.",
+        "link": "",
+        "sponsor": "TxDOT",
+        "PI": "Subasish Das, Lead-PI: Adam Pike (TTI)",
+        "PI_role": "Institutional PI",
+        "start_date": {
+            "year": 2026,
+            "month": "May"
+        },
+        "end_date": {
+            "year": 2027,
+            "month": "May"
+        },
+        "status": "ongoing",
+        "image": "27-055.png"
+    },
+    {
+        "number": "0-7289",
+        "title": "Tracking Performance of Access Management Improvements",
+        "description": "TxDOT Project (TTI as Prime), PS 27-177 (0-7289). This project tracks the performance of access management improvements to better understand their operational and safety impacts. TXST Budget: $70,000.",
+        "link": "",
+        "sponsor": "TxDOT",
+        "PI": "Subasish Das, Lead-PI: Bahar Dadashova (TTI)",
+        "PI_role": "Institutional PI",
+        "start_date": {
+            "year": 2026,
+            "month": "May"
+        },
+        "end_date": {
+            "year": 2027,
+            "month": "May"
+        },
+        "status": "ongoing",
+        "image": "0-7289.png"
+    },
     {
         "number": "",
         "title": "Telematics-Informed Crash Risk Modeling to Support Targeted Traffic Enforcement for CMV Safety",
@@ -18,6 +56,7 @@
         "status": "ongoing",
         "image": "Telematics-Informed Crash Risk Modeling to Support Targeted Traffic Enforcement for CMV Safety.png"
     },
+    
     {
       "number": "",
       "title": "Role of emerging transportation technologies and safety initiatives in mitigating crashes in coastal communities",
