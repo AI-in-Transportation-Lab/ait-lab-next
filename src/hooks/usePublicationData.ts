@@ -1,12 +1,17 @@
 import { ResearchPaper } from "@/types/publication";
 import { useQueryState } from "nuqs";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
+
+const PAGE_SIZE = 15; // Number of publications loaded per batch
 
 export function usePublicationData() {
   const [data, setData] = useState<ResearchPaper[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<Error | null>(null);
   const [lastUpdated, setLastUpdated] = useState<string | null>(null);
+
+  // How many items are currently visible (grows on loadMore)
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   const parsePublicationDate = (publication?: string | number) => {
     if (!publication) {
@@ -84,7 +89,7 @@ export function usePublicationData() {
       setIsLoading(true);
       try {
         const response = await fetch(
-          "https://raw.githubusercontent.com/Xatta-Trone/google-scholar-scrapper/main/scholar-data-qK-YgxAAAAAJ.json"
+          "https://raw.githubusercontent.com/AI-in-Transportation-Lab/google-scholar-scrapper/main/scholar-data-qK-YgxAAAAAJ.json"
         );
 
         if (!response.ok) {
@@ -114,16 +119,52 @@ export function usePublicationData() {
   const [yearFilter, setYearFilter] = useQueryState("year", {
     parse: (value) => (value ? parseInt(value) : null),
   });
-  const [sortOrder, setSortOrder] = useQueryState("sort", {
-    defaultValue: "newest" as const,
+
+  // Era filter: "all" | "pre2015" | "2016-2020" | "2021-2025" | "2026+"
+  const [eraFilter, setEraFilter] = useQueryState("era", {
+    defaultValue: "all",
   });
 
-  // Pagination
-  const [pageString, setPageString] = useQueryState("page", {
-    defaultValue: "1",
+  // Category filter: "all" | "journal" | "book" | "report"
+  const [categoryFilter, setCategoryFilter] = useQueryState("category", {
+    defaultValue: "all",
   });
-  const currentPage = pageString ? parseInt(pageString) : 1;
-  const itemsPerPage = 15; // Number of publications per page
+
+  // Sort: "newest" | "oldest" | "az"
+  const [sortOrder, setSortOrder] = useQueryState("sort", {
+    defaultValue: "newest" as string,
+  });
+
+  // Reset visible count whenever filters or sort change
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [searchQuery, eraFilter, categoryFilter, sortOrder, journalFilter, yearFilter]);
+
+  // Helper: get effective year for a publication
+  const getYear = (publication: ResearchPaper): number => {
+    return (
+      parsePublicationDate(publication.publication_date || publication.year)
+        .year || 0
+    );
+  };
+
+  // Helper: detect category from publication fields
+const getCategory = (publication: ResearchPaper): string => {
+  if (publication.journal) return "journal";
+  if (publication.book) return "book";
+  if (publication.report_number) return "report";
+  return "other";
+};
+
+  // Era range helper
+  const matchesEra = (year: number, era: string): boolean => {
+    if (era === "all" || !era) return true;
+    if (era === "pre2015") return year > 0 && year < 2015;
+    if (era === "2016-2020") return year >= 2016 && year <= 2020;
+    if (era === "2021-2025") return year >= 2021 && year <= 2025;
+    if (era === "2026+") return year >= 2026;
+    return true;
+  };
 
   // Filter publications based on query parameters
   const filteredPublications = data.filter((publication) => {
@@ -146,21 +187,34 @@ export function usePublicationData() {
         .includes(searchQuery?.toLowerCase() || "") ??
         false);
 
-    // Year filter
-    const matchesYear = !yearFilter || publication.year === yearFilter;
+    // Era filter (replaces per-year filter in the UI)
+    const year = getYear(publication);
+    const matchesEraFilter = matchesEra(year, eraFilter || "all");
 
-    // Journal/publisher filter
+    // Category filter
+    const cat = getCategory(publication);
+    const matchesCategory =
+      !categoryFilter ||
+      categoryFilter === "all" ||
+      cat === categoryFilter;
+
+    // Journal/publisher filter (kept for backward compat)
     const matchesJournal =
       !journalFilter ||
       journalFilter === "all" ||
       publication.journal === journalFilter ||
       publication.publisher === journalFilter;
 
-    return matchesSearch && matchesYear && matchesJournal;
+    return matchesSearch && matchesEraFilter && matchesCategory && matchesJournal;
   });
 
   // Sort publications
   const sortedPublications = [...filteredPublications].sort((a, b) => {
+    // A-Z sort by title
+    if (sortOrder === "az") {
+      return a.title.localeCompare(b.title);
+    }
+
     const sortKeyA = getPublicationSortKey(a);
     const sortKeyB = getPublicationSortKey(b);
 
@@ -251,26 +305,15 @@ export function usePublicationData() {
 //   return sortOrder === "newest" ? addedB - addedA : addedA - addedB;
 // });
 
-  // Pagination calculations
+  // Infinite scroll — slice sorted results to visibleCount
   const totalItems = sortedPublications.length;
-  const totalPages = Math.max(1, Math.ceil(totalItems / itemsPerPage));
+  const publications = sortedPublications.slice(0, visibleCount);
+  const hasMore = visibleCount < totalItems;
 
-  // Ensure currentPage is within valid range
-  const validCurrentPage = Math.min(Math.max(1, currentPage), totalPages);
-
-  // Get current page items
-  const startIndex = (validCurrentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const currentPageItems = sortedPublications.slice(startIndex, endIndex);
-
-  // Pagination functions
-  const goToPage = (page: number) => {
-    const targetPage = Math.min(Math.max(1, page), totalPages);
-    setPageString(targetPage.toString());
-  };
-
-  const nextPage = () => goToPage(validCurrentPage + 1);
-  const prevPage = () => goToPage(validCurrentPage - 1);
+  // Load next batch
+  const loadMore = useCallback(() => {
+    setVisibleCount((prev) => Math.min(prev + PAGE_SIZE, totalItems));
+  }, [totalItems]);
 
   // Get unique values for filters
   const journals = Array.from(
@@ -304,7 +347,7 @@ export function usePublicationData() {
   return {
     data,
     lastUpdated,
-    publications: currentPageItems,
+    publications,
     allFilteredPublications: sortedPublications,
     isLoading,
     error,
@@ -312,20 +355,27 @@ export function usePublicationData() {
     journals,
     searchQuery: searchQuery || "",
     setSearchQuery,
+    eraFilter: eraFilter || "all",
+    setEraFilter,
+    categoryFilter: categoryFilter || "all",
+    setCategoryFilter,
     journalFilter: journalFilter || "",
     setJournalFilter,
     yearFilter,
     setYearFilter,
-    sortOrder,
+    sortOrder: sortOrder || "newest",
     setSortOrder,
-    // Pagination data
-    currentPage: validCurrentPage,
-    totalPages,
+    // Infinite scroll
+    hasMore,
+    loadMore,
     totalItems,
-    goToPage,
-    nextPage,
-    prevPage,
-    hasNextPage: validCurrentPage < totalPages,
-    hasPrevPage: validCurrentPage > 1,
+    // Kept for backward compat — no longer used for pagination
+    currentPage: 1,
+    totalPages: 1,
+    goToPage: () => {},
+    nextPage: () => {},
+    prevPage: () => {},
+    hasNextPage: hasMore,
+    hasPrevPage: false,
   };
 }
