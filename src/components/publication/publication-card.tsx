@@ -18,18 +18,30 @@ function getItemType(publication: ResearchPaper): string {
   if (publication.journal) return "JOURNAL";
   if (publication.book) return "BOOK";
   if (publication.report_number) return "REPORT";
+  if (publication.publisher) return "JOURNAL ARTICLE";
   return "PUBLICATION";
 }
 
 // Authors: both names if 2, first name only + "et al." if 3+
+// Authors: last name only for et al. (Harvard style)
+// 1 author: full name
+// 2 authors: Last1 and Last2
+// 3+ authors: Last1 et al.
+function getLastName(fullName: string): string {
+  const suffixes = new Set(["jr", "jr.", "sr", "sr.", "ii", "iii", "iv"]);
+  const parts = fullName.trim().split(/\s+/).filter(Boolean);
+  while (parts.length > 1 && suffixes.has(parts[parts.length - 1].toLowerCase())) {
+    parts.pop();
+  }
+  return parts[parts.length - 1] || fullName;
+}
+
 function formatAuthors(authors?: string): string {
   if (!authors) return "AIT Lab";
-  const parts = authors.split(",").map((a) => a.trim());
+  const parts = authors.split(",").map((a) => a.trim()).filter(Boolean);
   if (parts.length === 1) return parts[0];
-  if (parts.length === 2) return `${parts[0]}, ${parts[1]}`;
-  // 3+ authors: first author's first name + et al.
-  const firstName = parts[0].split(" ")[0];
-  return `${firstName} et al.`;
+  if (parts.length === 2) return `${getLastName(parts[0])} and ${getLastName(parts[1])}`;
+  return `${getLastName(parts[0])} et al.`;
 }
 
 // Year from year field or date_added fallback
