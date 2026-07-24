@@ -76,12 +76,8 @@ export default function PublicationsPage() {
   } as React.CSSProperties;
 
   // Total citations across all publications
-  const totalCitations = data.reduce((sum, p) => {
-    const n = typeof p.total_citations === "string"
-      ? parseInt(p.total_citations, 10)
-      : p.total_citations;
-    return sum + (isNaN(n) ? 0 : n);
-  }, 0);
+  // Total citations from Google Scholar profile (updated manually or via scraper)
+  const totalCitations = 19219;
 
   // Helper to convert hex to rgb for shadow
   const hexToRgb = (hex: string) => {
@@ -219,7 +215,7 @@ export default function PublicationsPage() {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">All Eras</SelectItem>
-                <SelectItem value="pre2015">Pre-2015</SelectItem>
+                <SelectItem value="pre2015">Pre – 2015</SelectItem>
                 <SelectItem value="2016-2020">2016 – 2020</SelectItem>
                 <SelectItem value="2021-2025">2021 – 2025</SelectItem>
                 <SelectItem value="2026+">2026 – Now</SelectItem>
@@ -233,7 +229,7 @@ export default function PublicationsPage() {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="all">All Categories</SelectItem>
-                <SelectItem value="journal">Journal</SelectItem>
+                <SelectItem value="journal">Article</SelectItem>
                 <SelectItem value="book">Book</SelectItem>
                 <SelectItem value="report">Report</SelectItem>
               </SelectContent>
