@@ -150,10 +150,9 @@ export function usePublicationData() {
 
   // Helper: detect category from publication fields
 const getCategory = (publication: ResearchPaper): string => {
-  if (publication.journal) return "journal";
-  if (publication.book) return "book";
   if (publication.report_number) return "report";
-  return "other";
+  if (publication.book) return "book";
+  return "journal";
 };
 
   // Era range helper

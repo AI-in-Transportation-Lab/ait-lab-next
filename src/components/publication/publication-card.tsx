@@ -15,11 +15,9 @@ function getVenue(publication: ResearchPaper): string {
 
 // Category label without parentheses
 function getItemType(publication: ResearchPaper): string {
-  if (publication.journal) return "JOURNAL";
-  if (publication.book) return "BOOK";
   if (publication.report_number) return "REPORT";
-  if (publication.publisher) return "JOURNAL ARTICLE";
-  return "PUBLICATION";
+  if (publication.book) return "BOOK";
+  return "ARTICLE";
 }
 
 // Authors: both names if 2, first name only + "et al." if 3+
