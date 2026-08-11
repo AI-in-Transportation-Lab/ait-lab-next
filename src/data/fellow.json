@@ -1,5 +1,84 @@
 [
   {
+    "name": "Md Monzurul Islam",
+    "label": "M.Sc., Civil Engineering (2024 – 2026)",
+    "group": "Graduate Student",
+    "linkedin": "https://www.linkedin.com/in/monzurul-islam/",
+    "email": "monzurul@txstate.edu",
+    "image": "md_monzurul_islam.jpg",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=edkjFpwAAAAJ",
+    "researchGate": "https://www.researchgate.net/profile/Md-Monzurul-Islam-2",
+    "orcid": "https://orcid.org/0009-0007-3670-6100",
+    "github": "https://github.com/xatta-trone",
+    "twitter": "https://x.com/xatta_trone",
+    "websites": [
+      "https://sites.google.com/view/monzurul-islam/home?authuser=0",
+      "https://xatta-trone.github.io/",
+      "https://www.webofscience.com/wos/author/record/MBG-5163-2025"
+    ],
+    "description": "Md Monzurul Islam earned his Master's degree in Civil Engineering (Transportation) at Texas State University, where he worked as a Graduate Research Assistant under the supervision of Dr. Subasish Das. He brings a diverse academic and professional background, holding a Master's degree in Architecture from the University of Tokyo and a Bachelor's degree in Civil Engineering from Bangladesh University of Engineering and Technology. Monzurul's research focuses on transportation safety, crash risk assessment, and driver behavior analysis, utilizing machine learning, statistical models, and GIS-based spatial analysis. He is also proficient in building R-based tools for quick visualization and decision-making. In addition to his research, Monzurul has extensive experience in software development, project management, and structural engineering. As Vice President of Outreach for the Institute of Transportation Engineers (TXST Chapter), Monzurul developed and implemented strategies for community engagement, built relationships with external organizations, alumni, and potential sponsors, organized promotional events, and managed outreach and recruitment efforts to attract new members. Monzurul also enjoys tinkering with a wide variety of tools and technologies, always curious to explore and experiment with everything he encounters—in his words, 'I like to play with everything.'",
+    "awards": [
+      "BobCatalyst Innovation Accelerator Program (BIAP) Award, $5,000 (2025)",
+      "CASITE Scholarship, $1,500 (2025)",
+      "American Society of Highway Engineers (ASHE) award, $2,000 (2025)"
+    ]
+  },
+  {
+    "name": "Sazzad Bin Bashar Polock",
+    "label": "M.Sc., Civil Engineering (2024 – 2026)",
+    "group": "Graduate Student",
+    "linkedin": "https://www.linkedin.com/in/sazzadpolock",
+    "email": "sazzadpolock8@gmail.com",
+    "image": "sazzad_bin_bashar_polock.jpg",
+    "googleScholar": "",
+    "github": "",
+    "twitter": "",
+    "websites": [],
+    "description": "Sazzad Bin Bashar Polock earned his Master's degree in Civil Engineering (Transportation) at Texas State University under the guidance of Dr. Subasish Das. He joined the Artificial Intelligence in Transportation (AIT) lab in Fall 2024. His research interests include traffic safety, crash data analysis, driver behavior, and the integration of autonomous vehicles within existing infrastructure. He earned his bachelor's degree in civil engineering from Ahsanullah University of Science and Technology in 2023.",
+    "awards": [
+      ""
+    ]
+  },
+  {
+    "name": "Shriyank Somvanshi, Ph.D.",
+    "label": "Ph.D., Civil Engineering (2023 – 2026)",
+    "group": "Graduate Student",
+    "linkedin": "https://www.linkedin.com/in/shriyanksomvanshi/",
+    "email": "",
+    "image": "shriyank_somvanshi.jpg",
+    "description": "Shriyank Somvanshi earned his Ph.D. in Civil Engineering at Texas State University, where he worked as a doctoral assistant. His research focuses on applying deep learning models, including Convolutional Neural Networks (CNNs), explainable AI techniques such as SHapley Additive exPlanations (SHAP), and Generative Adversarial Networks (GANs) to enhance data analysis and model accuracy. Shriyank holds a Master of Science in Civil Engineering from Texas State University and a Bachelor's degree in Civil Engineering from Dr. A.P.J. Abdul Kalam Technical University, India.",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=JecpxeUAAAAJ",
+    "github": "https://github.com/shriyanksomvanshi",
+    "twitter": "",
+    "websites": [],
+    "awards": [
+      "Student Government Scholarship, $1,000 (2024)",
+      "Scholarly Travel Activity and Research (S.T.A.R.) Grant, $300 (2024)",
+      "Graduate Student Travel Fund, $1,300 (2024)",
+      "CASITE Scholarship (3rd Position), $500 (2024)"
+    ]
+  },
+  {
+    "name": "David A. Mills, Ph.D.",
+    "label": "Ph.D., Geographic Information Science (2022 – 2026)",
+    "group": "Graduate Student",
+    "linkedin": "https://www.linkedin.com/in/david-adam-mills/",
+    "email": "davidmills@txstate.edu",
+    "image": "david_a._mills.jpg",
+    "description": "David A. Mills is a geospatial data analyst and software developer. He earned his Ph.D. in Geographic Information Science at Texas State University. David worked for Dr. Das in the AIT Lab from 2022 to 2026. David specializes in discovering and improving the understanding spatio-temporal phenomena. He builds pioneering smart technologies and leverages them using advanced geocomputational techniques. David is a former non-commissioned officer of the United States Army who developed cultural awareness, mechanical skills, and honed effective leadership while stationed in South Korea, Germany, and Afghanistan. He is detail-oriented, focused, and self-driven. David is a published researcher, a frequenter of scientific conferences, and an avid smart-technology enthusiast. He is committed to the task of promoting environmental and public safety awareness while improving communities through the application of leading-edge technologies and geospatial analysis.",
+    "googleScholar": "https://scholar.google.com/citations?user=DJcqWr0AAAAJ&hl=en&oi=sra",
+    "github": "https://github.com/davidamills",
+    "twitter": "",
+    "websites": [
+      "https://davidmills.io"
+    ],
+    "awards": [
+      "Dwight D. Eisenhower Transportation Fellowship Program, $7,000 (2022)",
+      "NSF I-Corps Interior Northeast Winter 2024 Cohort, $50,000 (2024)",
+      "FY25 New Ventures Award, $10,000 (2025)"
+    ]
+  },
+  {
     "name": "Darrell Anderson",
     "label": "B.Sc. Student, Civil Engineering (Fall 2023 - Fall 2025)",
     "group": "Undergraduate Student",
