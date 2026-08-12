@@ -54,6 +54,42 @@
     "awards": []
   },
   {
+    "name": "Nixon Deb Pritom",
+    "label": "Ph.D. Student, Civil Engineering (Fall 2026 - Current)",
+    "group": "Ph.D. Student",
+    "linkedin": "https://www.linkedin.com/in/nixon-deb-pritom",
+    "email": "",
+    "image": "nixon.png",
+    "googleScholar": "https://scholar.google.com/citations?user=oU1LwB4AAAAJ&hl=en",
+    "researchGate": "",
+    "orcid": "https://orcid.org/0009-0005-5708-3833",
+    "github": "",
+    "twitter": "",
+    "websites": [
+      "https://pritom16.github.io/"
+    ],
+    "description": "Nixon Deb Pritom is a Ph.D. student in the Transportation Engineering Program in the Department of Civil Engineering at Texas State University, under the supervision of Dr. Subasish Das. He joined the AIT Lab in Fall 2026 and works as a Doctoral Research Assistant. He holds a bachelor’s degree in Civil and Environmental Engineering from Shahjalal University of Science and Technology (SUST) in Bangladesh. His research interests focus on automated vehicle safety and crash analysis, transportation network analysis, GIS-based spatial interpolation, traffic signal performance measurement, and transportation asset management. He is particularly passionate about illustrating complex macroscopic traffic data through interactive dashboards to help transportation agencies optimize regional mobility and equity. In his free time, he loves to cook, watch football, and take quiet walks. He also enjoys experimenting with new tools and techniques.",
+    "awards": [
+      "Boss Grad Merit Fellowship — Fall 2026 & Spring 2027: $2,573"
+    ]
+  },
+  {
+    "name": "Iman Jamshidi",
+    "label": "Ph.D. Student, Civil Engineering (Fall 2026 - Current)",
+    "group": "Ph.D. Student",
+    "linkedin": "https://www.linkedin.com/in/iman-jamshidi",
+    "email": "",
+    "image": "iman.png",
+    "googleScholar": "https://scholar.google.com/citations?user=vPxEdbYAAAAJ&hl=en",
+    "researchGate": "https://www.researchgate.net/profile/Iman-Jamshidi?ev=prf_overview",
+    "orcid": "https://orcid.org/0009-0000-5949-8833",
+    "github": "https://github.com/ijamshidi87",
+    "twitter": "",
+    "websites": [],
+    "description": "Iman Jamshidi is a Ph.D. student in Civil Engineering at Texas State University under the guidance of Dr. Subasish Das. He joined the Artificial Intelligence in Transportation (AIT) Lab in Fall 2026 and works as a Doctoral Research Assistant. His research interests include AI-driven transportation systems, transportation safety analytics, intelligent transportation operations, generative AI for mobility modeling, causal machine learning, and explainable AI. Iman holds a Master of Engineering in Artificial Intelligence from the University of Cincinnati, an MBA, and a bachelor’s degree in Civil Engineering. Prior to his graduate studies, he gained extensive professional experience in data analytics, technology development, and IT-related roles. He also has a strong background in mathematics and quantitative reasoning as an instructor and author of several mathematics books.",
+    "awards": []
+  },
+  {
     "name": "Tausif Islam Chowdhury",
     "label": "M.Sc. Student, Civil Engineering (Spring 2025 – Current)",
     "group": "Graduate Student",
@@ -138,7 +174,26 @@
     "websites": [],
     "description": "Salma Akter Laboni is a master’s Student in McCoy College of Business (MBA) at Texas State University, working as a Graduate Research Assistant under the guidance of Dr. Subasish Das. She joined the Artificial Intelligence in Transportation (AIT) lab in Fall 2025. Laboni has authored and co-authored several peer-reviewed journal articles, including studies on travel agency operations, export potential of Bangladesh’s flower and leather industries, the role of information technology and blockchain in logistics supply chains, and the socio-economic implications of gig work. She earned her bachelor's and master's degrees in the International Business Department from the University of Dhaka in 2019 and 2020, respectively. Before graduate school, she joined City University as a faculty member in the Department of Business Administration and Economics. Outside of academics and research, Laboni enjoys travelling and is an inquisitive person who is always willing to learn more.",
     "awards": [
-      "Graduate Merit Fellowship, $1,285 (2025, 2026)"
+      "Graduate Merit Fellowship, $1,285 (2025, 2026)",
+      "H.C. Viven Memorial Endowment Scholarship (2026)"
+    ]
+  },
+  {
+    "name": "Mohammad Shazidur Rahman",
+    "label": "M.Sc. Student, Civil Engineering (Fall 2026 - Current)",
+    "group": "Graduate Student",
+    "linkedin": "https://www.linkedin.com/in/mohammad-shazidur-rahman725/",
+    "email": "",
+    "image": "rahman.png",
+    "googleScholar": "",
+    "researchGate": "https://www.researchgate.net/profile/Mohammad-Shazidur-Rahman",
+    "orcid": "https://orcid.org/0009-0006-6222-5821",
+    "github": "",
+    "twitter": "",
+    "websites": [],
+    "description": "Mohammad Shazidur Rahman is a master’s student in Civil Engineering at Texas State University, working under the guidance of Dr. Subasish Das. He is currently serving as a Graduate Instructional Assistant at the Ingram School of Engineering and joined the Artificial Intelligence in Transportation (AIT) Lab in Fall 2026. His research interests include transportation safety, traffic simulation, GIS-based transportation analysis, and artificial intelligence applications in transportation. He earned his bachelor’s degree in Civil Engineering from Bangladesh University of Engineering and Technology (BUET). His previous research includes transportation microsimulation using PTV VISSIM and machine learning-based road accident severity prediction. Before joining Texas State, he worked as a GIS Analyst and Junior Engineer at the Institute of Water Modelling (IWM), gaining professional experience in GIS, geospatial data analysis, and engineering surveys. In his free time, Shazidur enjoys playing video games, watching football, and exploring diverse cuisines.",
+    "awards": [
+      "Boss Graduate Merit Fellowship, $2,573 (Fall 2026 - Spring 2027)"
     ]
   },
   {
