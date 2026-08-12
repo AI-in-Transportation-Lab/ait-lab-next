@@ -12,6 +12,7 @@ import { FiGithub } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 import { SiResearchgate } from "react-icons/si";
 import ImageWithFallback from "../image-w-fallback";
+import { cn } from "@/lib/utils";
 
 interface TeamMemberCardProps {
   member: TeamMember | Fellow;
@@ -22,9 +23,30 @@ export default function TeamMemberCard({
   member,
   onOpenModal,
 }: TeamMemberCardProps) {
+  const isDirector = member.label.toLowerCase().includes("director");
+
   return (
-    <Card className="glass-card h-full flex flex-col md:flex-row items-start card-hover overflow-hidden p-4">
-      <div className="relative h-full overflow-hidden rounded-md aspect-[300/450] mx-auto md:mx-0 w-full sm:w-[60%] md:w-[30%] lg:w-[20%]">
+    <Card
+      className={cn(
+        "glass-card h-full flex flex-col md:flex-row items-start card-hover overflow-hidden p-4",
+        isDirector &&
+          "relative !border-blue-500/50 bg-gradient-to-br from-blue-500/15 via-white/80 to-cyan-500/10 shadow-[0_20px_60px_-30px_rgba(59,130,246,0.9)] ring-1 ring-inset ring-blue-400/20 dark:via-black/20 md:p-6"
+      )}
+    >
+      {isDirector && (
+        <div
+          className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-blue-600 via-cyan-400 to-blue-600"
+          aria-hidden="true"
+        />
+      )}
+
+      <div
+        className={cn(
+          "relative h-full overflow-hidden rounded-md aspect-[300/450] mx-auto md:mx-0 w-full sm:w-[60%] md:w-[30%] lg:w-[20%]",
+          isDirector &&
+            "ring-4 ring-blue-500/15 shadow-xl md:w-[34%] lg:w-[26%]"
+        )}
+      >
         <ImageWithFallback
           src={"/images/team/" + member.image || "/images/placeholder.png"}
           alt={member.name}
@@ -33,20 +55,50 @@ export default function TeamMemberCard({
           fallbackSrc="/images/placeholder.png"
         />
       </div>
-      <div className="md:w-[70%]">
-        <CardContent className="p-4">
-          <h3 className="font-bold text-xl mb-1">{member.name}</h3>
-          <p className="text-sm font-bold text-foreground/70 mb-2">
+      <div
+        className={cn(
+          "md:w-[70%]",
+          isDirector && "md:w-[66%] lg:w-[74%]"
+        )}
+      >
+        <CardContent className={cn("p-4", isDirector && "md:p-6")}>
+          <h3
+            className={cn(
+              "font-bold text-xl mb-1",
+              isDirector && "text-2xl tracking-tight md:text-3xl"
+            )}
+          >
+            {member.name}
+          </h3>
+          <p
+            className={cn(
+              "text-sm font-bold text-foreground/70 mb-2",
+              isDirector && "text-base text-blue-600 dark:text-blue-300"
+            )}
+          >
             {member.label}
           </p>
           {/* <p className="text-xs text-blue-500 mb-4">{member.group}</p> */}
-          <p className="line-clamp-5 break-words text-sm">
+          <p
+            className={cn(
+              "line-clamp-5 break-words text-sm",
+              isDirector && "md:line-clamp-6 md:text-base md:leading-relaxed"
+            )}
+          >
             {member.description}
           </p>
         </CardContent>
-        <CardFooter className="flex gap-2 p-4 pt-0 flex-wrap">
+        <CardFooter
+          className={cn(
+            "flex gap-2 p-4 pt-0 flex-wrap",
+            isDirector && "md:px-6 md:pb-6"
+          )}
+        >
           <Button
-            className="text-white rounded-full px-4"
+            className={cn(
+              "text-white rounded-full px-4",
+              isDirector && "shadow-md shadow-blue-500/20"
+            )}
             onClick={() => onOpenModal(member)}
           >
             View Profile
