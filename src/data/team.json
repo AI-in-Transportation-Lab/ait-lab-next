@@ -302,6 +302,24 @@
     "awards": []
   },
   {
+    "name": "Suman Acharya",
+    "label": "B.Sc. Student, Computer Science (Fall 2026 - Current)",
+    "group": "Undergraduate Student",
+    "linkedin": "https://www.linkedin.com/in/suman-acharya-b0844627b/",
+    "email": "",
+    "image": "suman.png",
+    "googleScholar": "",
+    "researchGate": "",
+    "orcid": "",
+    "github": "https://github.com/SumanAch10",
+    "twitter": "",
+    "websites": [
+      "https://personal-portfolio-353304040127.us-central1.run.app/"
+    ],
+    "description": "Suman Acharya is pursuing a B.S. in Computer Science with a minor in Applied Mathematics at Texas State University, with graduation expected in May 2028. He joined the AIT Lab in Fall 2026 and is a member of Phi Eta Sigma Honor Society. His research interests include computer vision, retrieval-augmented generation (RAG), applied machine learning, and Physical AI / robotics. His technical skills include Python, C++, SQL, PyTorch/TensorFlow, scikit-learn, OpenCV, PostgreSQL/pgvector, Docker, and Google Cloud.",
+    "awards": []
+  },
+  {
     "name": "Michael J Starewich",
     "label": "M.Sc., Mathematics (2023-2024) (Temp Employee Since January, 2025)",
     "group": "Graduate Student",
