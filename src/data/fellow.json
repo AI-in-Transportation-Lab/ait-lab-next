@@ -1,5 +1,18 @@
 [
   {
+    "name": "Michael J Starewich",
+    "label": "M.Sc., Mathematics (2023-2024) (Temp Employee Since January, 2025)",
+    "group": "Graduate Student",
+    "linkedin": "",
+    "email": "",
+    "image": "michael_j_starewich.jpg",
+    "description": "Michael Starewich earned his M.S. in Mathematics, with a concentration in Statistics, from Texas State University in December 2024. He has experience in data analysis, statistical modeling, and teaching. Outside of work, he enjoys spending time with his pets and barbecuing on the weekends.",
+    "googleScholar": "",
+    "github": "",
+    "twitter": "",
+    "websites": []
+  },
+  {
     "name": "Shriyank Somvanshi, Ph.D.",
     "label": "Ph.D., Civil Engineering (2023 – 2026)",
     "group": "Graduate Student",
@@ -95,20 +108,6 @@
       "Dwight D. Eisenhower Transportation Fellowship Program (DDETFP), $7,000 (2024)",
       "Undergraduate Research Fellowship (URF), $1,160 (2025)"
     ]
-  },
-  {
-    "name": "Dipti Koirala",
-    "label": "B.Sc. Student, Electrical Engineering (2025)",
-    "group": "Undergraduate Student",
-    "linkedin": "https://www.linkedin.com/in/dipti-koirala-978172340",
-    "email": "yfn21@txstate.edu",
-    "image": "dipti_k.JPG",
-    "googleScholar": "",
-    "github": "",
-    "twitter": "",
-    "websites": [],
-    "description": "Dipti Koirala is currently an undergraduate student in the Electrical Engineering program at Texas State University, concentrating in Micro and Nano Devices and Systems. She joined the Artificial Intelligence in Transportation (AIT) Lab in Summer 2025 and is an undergraduate research assistant under the supervision of Dr. Subasish Das. Dipti is keenly interested in the intersection of electronics, semiconductors, data science, and intelligent transportation systems. Her academic interests include sensor-driven technologies, signal processing, and the use of AI to improve traffic safety and infrastructure performance. With a background in physics-based research, materials analysis, and applied mathematics, she brings a multidisciplinary perspective to the lab and is passionate about contributing to innovative, data-informed solutions engineering fields.",
-    "awards": []
   },
   {
     "name": "Shamyo Brotee",
@@ -225,22 +224,6 @@
       "Graduate College Scholarship, $1,000 (2023, 2024)",
       "ASHE Central Texas Scholarship Award, $1,000 (Fall 2024)",
       "WTS Helene Overley Memorial Scholarship, $5,000 (2025)"
-    ]
-  },
-  {
-    "name": "Teale Robison",
-    "label": "B.Sc. Student, Urban and Regional Planning (2021- 2025)",
-    "group": "Undergraduate Student",
-    "linkedin": "https://www.linkedin.com/in/teale-robison-b0ab7624b",
-    "email": "",
-    "image": "teale_robison.jpg",
-    "googleScholar": "",
-    "github": "",
-    "twitter": "",
-    "websites": [],
-    "description": "Teale is currently a senior at Texas State University, majoring in Urban and Regional Planning and minoring in Geographic Information Systems (GIS). She started at the Artificial Intelligence in Transportation (AIT) lab in fall 2024 and is currently working as an undergraduate research assistant for Dr. Das. Teale is passionate about the environment and sustainable development, especially involving transportation and creating a more efficient system. She has prior experience working as a Visual Analytics intern at Texas A&M Transportation Institute (TTI) utilizing GIS and ArcPy. Involved in several campus activities such as the Student Urban Planning Organization (SUPO) and SWIG (Supporting Women in Geography). In her free time, Teale enjoys playing board games, reading, and paddleboarding.",
-    "awards": [
-      "Bernard W. Detlefsen Junior Academic and Leadership Scholarship, $1,500 (2024)"
     ]
   },
   {

@@ -239,23 +239,6 @@
     ]
   },
   {
-    "name": "Biplov Pandey",
-    "label": "B.Sc. Student, Civil Engineering (Fall 2024 - Current)",
-    "group": "Undergraduate Student",
-    "linkedin": "https://www.linkedin.com/in/biplov-pandey-09b43a306/",
-    "email": "",
-    "image": "biplov_pandey.jpg",
-    "googleScholar": "",
-    "github": "https://github.com/BiplovPandey17",
-    "twitter": "",
-    "websites": [],
-    "description": "Biplov is currently an undergraduate student in the Civil Engineering Program at Texas State University, guided by Dr. Das. He joined the AIT Lab in Fall 2024 and works as an undergraduate research assistant. Originally from Nepal, Biplov is interested in transportation engineering and infrastructure development. His research focus includes transportation safety and sustainability. He has prior experience as a Surveying Assistant at SadaShiva Infra Private Limited, where he contributed to site assessments and data collection for mapping and project planning. Biplov's projects include geological field studies and detailed surveying tasks with proficiency in total stations, theodolites, CAD software, SolidWorks, and Microsoft Office. Outside of academics, Biplov enjoys watching cricket, playing table tennis, and hiking.",
-    "awards": [
-      "Undergraduate Research Fellowship (URF), $2,000 (2025)",
-      "ASCE Austin Branch Scholarship, $1,000 (2026)"
-    ]
-  },
-  {
     "name": "Irfan Sarwar Pranjol",
     "label": "B.Sc. Student, Mechanical Engineering (Fall 2025 - Current)",
     "group": "Undergraduate Student",
@@ -269,20 +252,6 @@
     "twitter": "",
     "websites": [],
     "description": "Irfan Sarwar Pranjol is an undergraduate student in the Mechanical Engineering program at Texas State University. He joined the Artificial Intelligence in Transportation (AIT) Lab in Fall 2025 as an undergraduate research assistant. Originally from Dhaka, Bangladesh, he has a strong academic background with a perfect GPA in both high school and college, along with a 1450 SAT score (96th percentile worldwide). His research interests lie at the intersection of artificial intelligence, sustainability, and engineering applications. Beyond academics, he has extensive leadership experience as Secretary General of the Notre Dame Eco and Space Club, where he organized national-level summits, astronomy workshops, and rocketry seminars. He also co-founded “Stellarscapes,” Bangladesh’s first astronomy-based high school exhibition, and has guided multiple student teams to success in international and national science competitions. He is skilled in Microsoft Office, spreadsheets, and Canva, and brings strong organizational and communication abilities developed through years of leading clubs, editing scientific magazines, and anchoring large events. Outside academics, he enjoys soccer, swimming, working out, and badminton.",
-    "awards": []
-  },
-  {
-    "name": "Bidisha Shrestha",
-    "label": "B.Sc. Student, Civil Engineering (Fall 2025 - Current)",
-    "group": "Undergraduate Student",
-    "linkedin": "https://www.linkedin.com/in/bidisha-shrestha-354a36206/",
-    "email": "",
-    "image": "bidisha-new.png",
-    "googleScholar": "",
-    "github": "",
-    "twitter": "",
-    "websites": [],
-    "description": "I am an undergraduate student in civil Engineering Program at Texas state University. Originally from Nepal, I am interested in hydraulics and transportation engineering with a focus on developing safe efficient and sustainable infrastructure. My research interest center on improving transportation systems and water resource management to better support communities.",
     "awards": []
   },
   {
@@ -318,18 +287,5 @@
     ],
     "description": "Suman Acharya is pursuing a B.S. in Computer Science with a minor in Applied Mathematics at Texas State University, with graduation expected in May 2028. He joined the AIT Lab in Fall 2026 and is a member of Phi Eta Sigma Honor Society. His research interests include computer vision, retrieval-augmented generation (RAG), applied machine learning, and Physical AI / robotics. His technical skills include Python, C++, SQL, PyTorch/TensorFlow, scikit-learn, OpenCV, PostgreSQL/pgvector, Docker, and Google Cloud.",
     "awards": []
-  },
-  {
-    "name": "Michael J Starewich",
-    "label": "M.Sc., Mathematics (2023-2024) (Temp Employee Since January, 2025)",
-    "group": "Graduate Student",
-    "linkedin": "",
-    "email": "",
-    "image": "michael_j_starewich.jpg",
-    "description": "Michael Starewich earned his M.S. in Mathematics, with a concentration in Statistics, from Texas State University in December 2024. He has experience in data analysis, statistical modeling, and teaching. Outside of work, he enjoys spending time with his pets and barbecuing on the weekends.",
-    "googleScholar": "",
-    "github": "",
-    "twitter": "",
-    "websites": []
   }
 ]
