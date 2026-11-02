@@ -1,5 +1,23 @@
 [
   {
+    "name": "Teale Robison",
+    "label": "B.Sc.",
+    "subject": "Urban and Regional Planning, TXST",
+    "duration": "2021-2025"
+  },
+  {
+    "name": "Biplov Pandey",
+    "label": "B.Sc.",
+    "subject": "Civil Engineering, TXST",
+    "duration": "2024-2026"
+  },
+  {
+    "name": "Bidisha Shrestha",
+    "label": "B.Sc.",
+    "subject": "Civil Engineering, TXST",
+    "duration": "2025-2026"
+  },
+  {
     "name": "Venkata Surya Bellamkonda",
     "label": "M.Sc.",
     "subject": "Data Analytics And Information Systems, TXST",
@@ -33,6 +51,12 @@
     "name": "Pradicta Bhattacharjee",
     "label": "B.Sc.",
     "subject": "Industrial Engineering, TXST",
+    "duration": "2025"
+  },
+  {
+    "name": "Dipti Koirala",
+    "label": "B.Sc.",
+    "subject": "Electrical Engineering, TXST",
     "duration": "2025"
   },
   {
